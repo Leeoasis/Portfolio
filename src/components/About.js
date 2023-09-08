@@ -1,14 +1,10 @@
 import React from 'react'
-import SideCard from './SideCard'
-import Intro from './Navbar'
+import Shared from './Shared'
 
 const About = () => {
   return (
     <div>
-        <div className="content">
-            <SideCard />
-            <Intro />
-        </div>
+      <Shared />
     </div>
   )
 }
