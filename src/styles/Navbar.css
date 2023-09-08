@@ -1,0 +1,19 @@
+.nav {
+   margin-left: 58rem;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+ }
+
+ li {
+   margin-right: 20px;
+ }
+
+ .nav-links {
+   text-decoration: none;
+   color: #fff;
+   font-size: 1.5rem;
+ }
