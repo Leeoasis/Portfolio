@@ -1,0 +1,45 @@
+.heading {
+    margin-left: 28rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+.home-heading {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.home-para {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #999999;
+}
+
+.project-btn {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 30px;
+    background: #28E98C;
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.contact-btn {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 30px;
+    background: #28E98C;
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+@media screen and (max-width: 640px) {
+    
+    .home-div .content h1{
+        font-size: 1.3rem;
+    }
+}
