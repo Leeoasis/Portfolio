@@ -1,0 +1,74 @@
+/* SideCard.css */
+.left-sidebar {
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #565656;
+    position: fixed;
+    font-family: 'Inter, sans-serif';
+}
+
+
+img {
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.email {
+    margin-left: 8px;
+}
+
+.address {
+    margin-bottom: 2rem;
+}
+
+.email, .address {
+    font-size: 24px;
+}
+
+.copyright {
+    margin-left: 12px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.social-profile a {
+    margin-bottom: 2rem;
+    margin-right: 1rem; 
+    margin-left: 12px;
+    color: #999999;
+    font-size: 24px;
+  }
+
+.theme-btn {
+    text-align: center;
+    padding: 11px 58px 10px 58px;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+    background: #28E98C;
+    color: #000000;
+    text-decoration: none;
+}
+
+.theme-btn:hover {
+    background: none;
+    color: #28E98C;
+    text-decoration: none;
+    border: 2px solid #28E98C;
+}
+
+
+  
+
+
+
