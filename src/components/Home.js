@@ -3,12 +3,10 @@ import SideCard from "./SideCard";
 import Navbar from "./Navbar";
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
-import Background from './Background';
 
 const HomeImg = () => {
   return (
     <div className="home-div">
-        <Background />
         <div className="content">
 
         <SideCard />
