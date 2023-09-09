@@ -1,6 +1,4 @@
 import React from 'react'
-import SideCard from "./SideCard";
-import Navbar from "./Navbar";
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
@@ -9,8 +7,6 @@ const HomeImg = () => {
     <div className="home-div">
         <div className="content">
 
-        <SideCard />
-        <Navbar />
         <div className="heading">
         <h1 className="home-heading">Hello, I'm Leslie Gudo,<br /> Full Stack Web Developer</h1>
         <p className="home-para">Step into my world where technology meets creativity, and code transforms into innovation. With a wealth of expertise in crafting elegant software solutions for a global audience,

@@ -15,7 +15,7 @@ const SideCard = () => {
   return (
     <div className="left-sidebar">
         <div className="side-bar-header d-flex align-items-center justify-content-between">
-            <h2>Leslie</h2>
+            <h2 className="logo-name">Leslie</h2>
             <span className="designation">Full Stack Developer</span>
         </div>
         <img src={myImage} alt="my logo" />

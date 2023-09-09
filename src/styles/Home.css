@@ -1,8 +1,10 @@
-.heading {
-    margin-left: 28rem;
-    margin-right: 2rem;
-    margin-top: 3rem;
-}
+.content {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    color: #ffffff;
+  }
+  
 
 .home-heading {
     font-size: 4rem;

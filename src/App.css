@@ -5,9 +5,8 @@ html, body {
     font-family: 'Inter', sans-serif;
 }
 
-.content{
-    position: absolute;
-    top: 2rem;
-    left: 3rem;
-    color: #fff;
+.heading {
+    margin-left: 28rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
 }

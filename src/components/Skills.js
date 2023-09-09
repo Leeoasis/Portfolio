@@ -1,11 +1,21 @@
 import React from 'react'
-import Shared from './Shared'
+import SideCard from "./SideCard";
+import Navbar from "./Navbar";
 
 const Skills = () => {
   return (
-    <>
-       <Shared />
-    </>
+    <div className="home-div">
+    <div className="content">
+
+    <SideCard />
+    <Navbar />
+    <div className="heading">
+    <h1 className="home-heading">Skills</h1>
+    
+   
+    </div>
+    </div>
+</div>
   )
 }
 

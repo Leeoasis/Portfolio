@@ -1,4 +1,3 @@
-/* SideCard.css */
 .left-sidebar {
     max-width: 350px;
     padding: 30px;
@@ -6,6 +5,7 @@
     border: 1px solid #565656;
     position: fixed;
     font-family: 'Inter, sans-serif';
+    color: #ffffff;
 }
 
 
