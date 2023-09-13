@@ -21,21 +21,23 @@
     opacity: 0.99;
 }
 
-.custom-carousel-item {
-    /* margin-left: px;  */
-  }
-
 .project-card video {
-  width: 100%;
   height: 300px;
+}
+
+.projects-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #999999;
+
 }
 
 .project-title {
     font-size: 1.5rem;
     color: #28E98C;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
     font-weight: 600;
-    margin: auto auto;
 }
 
 .project-description {
@@ -96,3 +98,27 @@
   .project-card:hover {
     transform: scale(1.05); 
   }
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    margin-top: -115rem;
+    margin-left: 0rem;
+    opacity: 0.9;
+    color: white;
+  }
+
+  .carousel-container {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .project-intro {
+    margin-bottom: 4rem;
+    max-width: 80%;
+  }
+
+  .project-card video {
+    width: auto;
+    height: 300px;
+  }
+}

@@ -82,7 +82,7 @@ const Skills = () => {
               <h2 className="interests-title">Interests</h2>
             </div>
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                  <img src={Bootstrap} alt="Boostrap logo" style={{ width: "30px", height: "30px"}}></img>
                  <h3>Bootstrap</h3>
@@ -94,19 +94,19 @@ const Skills = () => {
                   <h3>Tailwind CSS</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={Node} alt="Node js logo" style={{ width: "30px", height: "30px"}} />
                   <h3>NodeJS</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={Rails} alt="Rails logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Rails</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={ReactImg} alt="React logo" style={{ width: "30px", height: "30px"}} />
                   <h3>React & Redux</h3>
@@ -118,37 +118,37 @@ const Skills = () => {
                   <h3>Git & Github</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={Swagger} alt="Swagger logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Swagger</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={Postman} alt="Postman logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Postman</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={Postgres} alt="Postgres logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Pg Admin</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={Jest} alt="Jest logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Jest</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={JQuery} alt="JQuery logo" style={{ width: "30px", height: "30px"}} />
                   <h3>JQuery</h3>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-3 col-md-4 mb-4">
                 <div className="icon-box">
                   <img src={Django} alt="Python django logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Django</h3>
