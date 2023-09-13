@@ -6,8 +6,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const About = () => {
   return (
     <div className="home-div">
-      <div className="content">
-
+      <div className="trial content">
+      
         <div className="heading">
           <h1 className="about-heading">LEARN MORE ABOUT ME</h1>
           <div className="row about-content">

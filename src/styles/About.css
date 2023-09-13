@@ -65,13 +65,18 @@
   transition: .3s;
 }
 
-@media screen and (max-width: 768px) {
-  .left-sidebar {
-    display: none !important;
-  }
+.content-mobile-margin {
+  margin-top: 1rem; 
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  color: #ffffff;
+}
 
-  .content {
-    top: 1rem !important;
+@media screen and (max-width: 768px) {
+  .trial {
+    top: 0.5rem;
+   
   }
 
   .about-image-container {
@@ -85,6 +90,10 @@
 
   .about-text {
     text-align: center;
+  }
+
+  .custom-list {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 

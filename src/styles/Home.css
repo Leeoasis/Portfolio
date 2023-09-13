@@ -1,11 +1,3 @@
-.content {
-    position: absolute;
-    top: 2rem;
-    left: 3rem;
-    color: #ffffff;
-  }
-  
-
 .home-heading {
     font-size: 4rem;
     font-weight: 400;
@@ -40,12 +32,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .left-sidebar {
-        display: block !important;
-    }
     
     .content {
-        top: 38rem !important;
+        top: 38rem;
         left: -27rem;
         right: 0;
     }
