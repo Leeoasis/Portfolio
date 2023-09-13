@@ -3,13 +3,12 @@
     padding: 30px;
     border-radius: 30px;
     border: 1px solid #565656;
-    position: fixed;
     font-family: 'Inter, sans-serif';
     color: #ffffff;
 }
 
 
-img {
+.sideImage {
     width: 100%;
     overflow-clip-margin: content-box;
     overflow: clip;
@@ -65,6 +64,11 @@ img {
     color: #28E98C;
     text-decoration: none;
     border: 2px solid #28E98C;
+}
+
+@media screen and (max-width: 768px) {
+  .left-sidebar {
+  }
 }
 
 

@@ -13,7 +13,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 1,
+    items: 2,
     slidesToSlide: 1,
   },
   mobile: {
@@ -42,6 +42,7 @@ const Projects = () => {
         draggable={false}
         showDots={false}
         ssr
+        // centerMode={true}
         autoPlaySpeed={1000}
         keyBoardControl
         customTransition="all .5"

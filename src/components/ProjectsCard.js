@@ -9,19 +9,31 @@ const ProjectsCard = ({ imgsrc, title, text, live, source }) => {
     setIsActive(!isActive);
   };
 
+  const truncateDescription = (description, maxLength) => {
+    if (description.length > maxLength) {
+      return `${description.slice(0, maxLength)} ...`;
+    }
+    return description;
+  };
+
   return (
     <div
-      className={`project-card ${isActive ? 'active' : ''} ${isActive ? 'slide-in' : ''}`} // Apply active and animation class
-      onClick={handleClick} // Handle click event
+      className={`project-card ${isActive ? 'active' : ''} ${isActive ? 'slide-in' : ''}`}
+      onClick={handleClick}
     >
-      <img className="project-image" src={imgsrc} alt="Project" />
+                  <video className="project-image" autoPlay loop muted>
+                <source src={imgsrc} type="video/mp4" />
+                  Your browser does not support the video tag.
+            </video>
 
       <h2 className="project-title">{title}</h2>
       <div>
-        <p className="project-description">{text}</p>
+      <p className="project-description">
+          {truncateDescription(text, 100)}
+        </p>
         <div className="project-btns">
-          <NavLink to={live}>Live</NavLink>
-          <NavLink to={source}>Source</NavLink>
+          <NavLink to={live} className="live-btn" target='__blank'>Live</NavLink>
+          <NavLink to={source} className="source-btn" target='__blank'>Source</NavLink>
         </div>
       </div>
     </div>

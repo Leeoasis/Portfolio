@@ -17,31 +17,45 @@
     color: #999999;
 }
 
-.project-btn {
-    margin-top: 3rem;
+.my-buttons-container {
+    display: flex;
+    gap: 8rem;
     margin-left: 5rem;
-    padding: 1rem 2rem 1rem 2rem;
+}
+
+.home-buttons {
+    text-decoration: none;
     border-radius: 30px;
+    padding: 0.5rem 2rem;
     background: #28E98C;
     color: #000000;
-    text-decoration: none;
     transition: .3s;
 }
 
-.contact-btn {
-    margin-top: 3rem;
-    margin-left: 5rem;
-    padding: 1rem 2rem 1rem 2rem;
-    border-radius: 30px;
-    background: #28E98C;
-    color: #000000;
+.home-buttons:hover {
+    background: none;
+    color: #28E98C;
     text-decoration: none;
-    transition: .3s;
+    border: 2px solid #28E98C;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
+    .left-sidebar {
+        display: block !important;
+    }
     
-    .home-div .content h1{
-        font-size: 1.3rem;
+    .content {
+        top: 38rem !important;
+        left: -27rem;
+        right: 0;
+    }
+
+    .my-buttons-container {
+        gap: 2rem;
+        margin-left: 0.4rem;
+    }
+
+    .home-buttons {
+        padding: 0.5rem 1rem;
     }
 }

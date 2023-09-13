@@ -1,5 +1,5 @@
 import React from 'react';
-import IntroImg from '../assets/water-waves.mp4';
+import IntroImg from '../assets/background-waves.mp4';
 import Navbar from './Navbar';
 import SideCard from './SideCard';
 import '../styles/Background.css';
