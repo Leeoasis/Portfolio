@@ -22,7 +22,7 @@ const ProjectsData = [
         imgsrc: Summit,
         title: "Youth Summit",
         text: "Global-Youth-Development-Summit is a website that basically advertises a youth summit that will take place in future. ",
-        live: " https://leeoasis.github.io/Youth-summit/",
+        live: "https://leeoasis.github.io/Youth-summit/",
         source: "https://github.com/Leeoasis/Youth-summit"
     },
     {

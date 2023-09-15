@@ -38,6 +38,7 @@
   position: absolute;
   top: 2rem;
   left: 3rem;
+  z-index: 1;
 }
 
 /* Media query for tablet screens */
@@ -53,12 +54,18 @@
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
+.navbar-container {
+  left: 18.5rem;
+}
+
 .nav-btn {
   display: block;
 }
 
 .sidecard-container {
   left: 1.2rem;
+  right: inherit;
   margin: auto auto;
+  z-index: 0;
 }
 }

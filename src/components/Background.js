@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import IntroImg from '../assets/background-waves.mp4';
 import Navbar from './Navbar';
 import SideCard from './SideCard';
 import '../styles/Background.css';
 
 const Background = () => {
+
+  const location = useLocation();
 
   const [showSideCard, setShowSideCard] = useState(true); // Initially, show the SideCard
 
@@ -18,17 +21,12 @@ const Background = () => {
       }
     };
 
-    // Add event listener for window resize
     window.addEventListener('resize', handleResize);
-
-    // Call handleResize initially to set the initial state based on window size
     handleResize();
-
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [location.pathname]);
 
   return (
     <div className="background-container">

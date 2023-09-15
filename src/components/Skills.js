@@ -89,7 +89,7 @@ const Skills = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mb-4">
-                <div className="icon-box">
+                <div className="icon-box longer">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/64px-Tailwind_CSS_Logo.svg.png" alt="Tailwind logo" style={{ width: "30px", height: "30px"}}></img>
                   <h3>Tailwind CSS</h3>
                 </div>
@@ -107,13 +107,13 @@ const Skills = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mb-4">
-                <div className="icon-box">
+                <div className="icon-box longer">
                   <img src={ReactImg} alt="React logo" style={{ width: "30px", height: "30px"}} />
                   <h3>React & Redux</h3>
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mb-4">
-                <div className="icon-box">
+                <div className="icon-box longer">
                   <img src={Git} alt="Github logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Git & Github</h3>
                 </div>
@@ -131,7 +131,7 @@ const Skills = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mb-4">
-                <div className="icon-box">
+                <div className="icon-box longer">
                   <img src={Postgres} alt="Postgres logo" style={{ width: "30px", height: "30px"}} />
                   <h3>Pg Admin</h3>
                 </div>

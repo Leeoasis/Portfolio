@@ -65,6 +65,25 @@
   transition: .3s;
 }
 
+.resume-btn:hover {
+  background: none;
+  color: #28E98C;
+  border: 2px solid #28E98C;
+  text-decoration: none;
+}
+
+.resume-btn a {
+  text-decoration: none;
+  border: #28E98C;
+  color: #000000;
+}
+
+.resume-btn a:hover {
+  background: none;
+  color: #28E98C;
+  text-decoration: none;
+}
+
 .content-mobile-margin {
   margin-top: 1rem; 
   position: absolute;

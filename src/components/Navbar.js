@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
 import { CgMenuRound } from 'react-icons/cg';
 import '../styles/Navbar.css';
@@ -14,11 +15,11 @@ const Navbar = () => {
     <div>
       <nav className={openMenu ? 'responsive-nav' : ''}>
         <ul>
-          <li><a href="/" className="nav-links">Home</a></li>
-          <li><a href="projects" className="nav-links">Projects</a></li>
-          <li><a href="/skills" className="nav-links">Skills</a></li>
-          <li><a href="/about" className="nav-links">About</a></li>
-          <li><a href="/contact" className="nav-links">Contact</a></li>
+          <li><NavLink to="/" exact className="nav-links" activeClassName="active">Home</NavLink></li>
+           <li><NavLink to="/projects" className="nav-links" activeClassName="active">Projects</NavLink></li>
+           <li><NavLink to="/skills" className="nav-links" activeClassName="active">Skills</NavLink></li>
+          <li><NavLink to="/about" className="nav-links" activeClassName="active">About</NavLink></li>
+          <li><NavLink to="/contact" className="nav-links" activeClassName="active">Contact</NavLink></li>
         </ul>
       </nav>
       <button

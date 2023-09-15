@@ -87,6 +87,18 @@
     background: rgba(255, 255, 255, 0.08);
 }
 
+@media screen and (max-width: 1200px) {
+    .icon-box {
+        padding-top: 38px;
+        padding-bottom: 35px;
+    }
+
+    .longer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
+
 @media  screen and (max-width: 768px) {
     /* .icon-box {
         width: 100%;
@@ -109,3 +121,4 @@
     }
 
 }
+

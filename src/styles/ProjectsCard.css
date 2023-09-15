@@ -77,6 +77,13 @@
     transition: .3s;
 }
 
+.projects-btn:hover {
+  background: none;
+  color: #28E98C;
+  text-decoration: none;
+  border: 2px solid #28E98C;
+}
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
@@ -120,7 +127,7 @@
 
 @media screen and (max-width: 768px) {
   .projects-container {
-    margin-top: -115rem;
+    margin-top: -125rem;
     margin-left: 0rem;
     opacity: 0.9;
     color: white;

@@ -32,8 +32,8 @@ const ProjectsCard = ({ imgsrc, title, text, live, source }) => {
           {truncateDescription(text, 100)}
         </p>
         <div className="project-btns">
-          <NavLink to={live} className="live-btn" target='__blank'>Live</NavLink>
-          <NavLink to={source} className="source-btn" target='__blank'>Source</NavLink>
+          <NavLink to={live} className="live-btn projects-btn" target='__blank'>Live</NavLink>
+          <NavLink to={source} className="source-btn projects-btn" target='__blank'>Source</NavLink>
         </div>
       </div>
     </div>
