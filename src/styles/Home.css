@@ -31,20 +31,41 @@
     border: 2px solid #28E98C;
 }
 
-@media screen and (max-width: 768px) {
-    
+/* Media query for tablet screens */
+@media screen and (max-width: 1200px) {
     .content {
+        left: -1.6rem;
+    }
+
+    .home-heading {
+        font-size: 3.5rem;
+    }
+
+    .my-buttons-container {
+        gap: 2rem;
+        margin-left: -2rem;
+    }
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+    .sidecard-container {
+        display: block !important;
+    }
+    .content {
+        width: fit-content;
         top: 38rem;
         left: -27rem;
         right: 0;
     }
 
     .my-buttons-container {
-        gap: 2rem;
+        gap: 1rem;
         margin-left: 0.4rem;
     }
 
     .home-buttons {
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.8rem;
+        font-weight: bold;
     }
 }

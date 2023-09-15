@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/About.css'
-import MyImage from '../assets/leslie-removebg-preview.png'
+import MyImage from '../assets/IMG_7208__2_-removebg-preview.png'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const About = () => {
@@ -34,7 +34,11 @@ const About = () => {
                 If you are seeking a dedicated full-stack software engineer who combines
                 technical proficiency with a solution-oriented mindset, Shall we get to know each other better? 
               </p>
-              <button className="resume-btn" type="button">Download Resume</button>
+              <button className="resume-btn" type="button">
+                <a href="https://drive.google.com/file/d/1SHeqNOoIEZnWC4lkV57WqqLmEKI9oxli/view?usp=sharing" download="Leslie's-resume.pdf" target="_blank" rel="noopener noreferrer">
+                  Download Resume
+               </a>
+              </button>
             </div>
           </div>
         </div>

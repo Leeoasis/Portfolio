@@ -99,6 +99,25 @@
     transform: scale(1.05); 
   }
 
+@media screen and (max-width: 1200px) {
+  .projects-container {
+    margin-top: -165rem;
+    gap : 3rem;
+  }
+
+  .project-card video {
+    height: 250px;
+  }
+
+  .source-btn {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+  }
+
+  .live-btn {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .projects-container {
     margin-top: -115rem;

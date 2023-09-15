@@ -11,7 +11,7 @@ const Background = () => {
   useEffect(() => {
     const handleResize = () => {
       // Conditionally hide the SideCard on the About page for screens below 768px
-      if (window.location.pathname === '/about' && window.innerWidth < 768) {
+      if (window.location.pathname === '/about' && window.innerWidth < 769) {
         setShowSideCard(false);
       } else {
         setShowSideCard(true);

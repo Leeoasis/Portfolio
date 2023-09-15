@@ -12,11 +12,12 @@
     width: 100%;
     overflow-clip-margin: content-box;
     overflow: clip;
-    width: 250px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 30px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     margin-top: 1rem;
+    margin-left: 1.5rem;
 }
 
 .email {

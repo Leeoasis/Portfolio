@@ -1,7 +1,7 @@
 // SideCard.js
 import React from 'react';
 import '../styles/SideCard.css';
-import myImage from '../assets/leslie.jpeg';
+import myImage from '../assets/IMG_1207.jpg';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {

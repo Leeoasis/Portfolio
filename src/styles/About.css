@@ -73,10 +73,21 @@
   color: #ffffff;
 }
 
+/* Media query for tablet screens */
+@media screen and (max-width: 1200px) {
+  .about-image {
+    display: none;
+  }
+}
+
+/* Media query for mobile screens */
 @media screen and (max-width: 768px) {
+  .about-image {
+    display: block;
+  }
+
   .trial {
     top: 0.5rem;
-   
   }
 
   .about-image-container {
@@ -96,4 +107,3 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
