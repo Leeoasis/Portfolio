@@ -107,6 +107,10 @@
 
 /* Media query for mobile screens */
 @media screen and (max-width: 768px) {
+.content {
+  width: inherit;
+}
+
   .about-image {
     display: block;
   }
@@ -131,4 +135,9 @@
   .custom-list {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  
+.about-para {
+  font-size: 18px;
+}
 }
