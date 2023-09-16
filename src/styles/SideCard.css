@@ -1,10 +1,14 @@
 .left-sidebar {
-    max-width: 350px;
-    padding: 30px;
+    max-width: 400px;
+    padding: 90px 40px 70px 40px;
     border-radius: 30px;
     border: 1px solid #565656;
     font-family: 'Inter, sans-serif';
     color: #ffffff;
+}
+
+.side-bar-header {
+    margin: -2rem auto 1rem auto; 
 }
 
 
@@ -39,7 +43,7 @@
 }
 
 .social-profile a {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-right: 1rem; 
     margin-left: 12px;
     color: #999999;
@@ -48,7 +52,7 @@
 
 .theme-btn {
     text-align: center;
-    padding: 11px 58px 10px 58px;
+    padding: 15px 70px 15px 70px;
     align-items: center;
     border-radius: 30px;
     justify-content: center;

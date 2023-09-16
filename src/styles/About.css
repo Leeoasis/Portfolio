@@ -1,5 +1,5 @@
 .about-heading {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -12,19 +12,20 @@
 
 .about-title {
   color: #28E98C;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
 }
 
 .my-text {
   font-style: italic;
+  font-size: 20px;
 }
 
 .custom-social {
   display: flex;
   flex-wrap: wrap;
   max-width: 800px; 
-  margin-left: 2rem; 
+  margin: 2rem auto 2rem 3rem; 
 }
 
 .custom-list {
@@ -32,17 +33,22 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px; 
+  gap: 50px; 
 }
 
 .custom-list li {
   display: flex;
   align-items: center;
   margin-bottom: 10px; 
+  font-size: 22px;
 }
 
 .custom-list i {
   margin-right: 5px;
+}
+
+.about-para {
+  font-size: 20px;
 }
 
 .green {
@@ -56,8 +62,8 @@
 
 
 .resume-btn {
-  margin-left: 2rem;
-  padding: 0.5rem 4rem 0.5rem 4rem;
+  margin-left: 3rem;
+  padding: 1rem 6rem;
   border-radius: 30px;
   background: #28E98C;
   color: #000000;

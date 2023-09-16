@@ -29,14 +29,14 @@
 
 .navbar-container {
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   right: 3rem;
   z-index: 1; 
 }
 
 .sidecard-container {
   position: absolute;
-  top: 2rem;
+  top: 5rem;
   left: 3rem;
   z-index: 1;
 }

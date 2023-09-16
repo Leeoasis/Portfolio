@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin-top: -44%;
+    margin-top: -42%;
     margin-left: 15rem;
     opacity: 0.9;
     color: white;
@@ -12,21 +12,23 @@
 .carousel-container {
     position: relative;
     overflow: hidden;
-    margin-left: 13rem;
+    margin-left: 15rem;
     margin-right: 1rem;
+    margin-top: 1rem;
 }
 
 .project-intro {
+  font-size: 1.5rem;
     color:  #28E98C;
     opacity: 0.99;
 }
 
 .project-card video {
-  height: 300px;
+  height: 350px;
 }
 
 .projects-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: #999999;
 
@@ -58,7 +60,7 @@
 .live-btn {
     font-size: 1rem;
     font-weight: 600;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
     border-radius: 30px;
     background: #28E98C;
     color: #000000;
@@ -69,7 +71,7 @@
 .source-btn {
     font-size: 1rem;
     font-weight: 600;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
     border-radius: 30px;
     background: #28E98C;
     color: #000000;

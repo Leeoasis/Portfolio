@@ -29,7 +29,7 @@ const About = () => {
                   </ul>
                    
               </div>
-              <p>
+              <p className="about-para">
                 I am passionate about leveraging technology to solve real-world problems and driven by the opportunity to make a positive impact through my work. 
                 If you are seeking a dedicated full-stack software engineer who combines
                 technical proficiency with a solution-oriented mindset, Shall we get to know each other better? 

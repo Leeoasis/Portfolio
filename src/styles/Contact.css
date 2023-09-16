@@ -1,16 +1,16 @@
 .contact-heading {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 36px;
   text-transform: uppercase;
-  margin-top: -2rem;
+  margin-top: 1rem;
   opacity: 0.9;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
 
 }
 .contact-form {
-  width: 800px;
+  width: 1100px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #999999;
