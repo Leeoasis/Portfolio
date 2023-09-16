@@ -20,7 +20,7 @@ const About = () => {
               </p>
               <div class="custom-social">
                   <ul className="custom-list">
-                    <li><i className="green bi bi-chevron-right"></i> <strong>Website:</strong>&nbsp; &nbsp; <span>  url</span></li>
+                    <li><i className="green bi bi-chevron-right"></i> <strong>Website:</strong>&nbsp; &nbsp; <span>  https://lamleslie.netlify.app</span></li>
                     <li><i className="green bi bi-chevron-right"></i> <strong>Phone:</strong>&nbsp;  &nbsp; <span>  +27681069901</span></li>
                     <li><i className="green bi bi-chevron-right"></i> <strong>City:</strong>&nbsp;  &nbsp;<span>  Capetown, SA</span></li>
                     <li><i className="green bi bi-chevron-right"></i> <strong>Diploma:</strong>&nbsp;  &nbsp;<span>  Full Stack Development</span></li>

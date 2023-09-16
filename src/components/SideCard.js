@@ -23,17 +23,17 @@ const SideCard = () => {
         <h2 className="address">Based in CapeTown, SA</h2>
         <p className="copyright"> @2023 Leslie. All Rights Reserved</p>
         <div className="social-profile d-flex align-items-center flex-wrap ">
-      <a href="https://github.com/Leeoasis">
+      <a href="https://github.com/Leeoasis" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <a href="https://www.linkedin.com/in/leslie-gudo/">
-        <FontAwesomeIcon icon={faLinkedin} target='_blank' />
+      <a href="https://www.linkedin.com/in/leslie-gudo/" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faLinkedin} />
       </a>
-      <a href="https://medium.com/@leeegd99">
-        <FontAwesomeIcon icon={faMedium} target='_blank' />
+      <a href="https://medium.com/@leeegd99" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faMedium} />
       </a>
-      <a href="https://www.instagram.com/gd_leslie/">
-        <FontAwesomeIcon icon={faInstagram} target='_blank' />
+      <a href="https://www.instagram.com/gd_leslie/" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faInstagram} />
       </a>
     </div>
     <Link to={"/Contact"} className="theme-btn">Hire me!</Link>
