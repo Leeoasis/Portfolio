@@ -52,16 +52,16 @@ const HomeImg = () => {
       {/* Add an overlay with background color */}
       <div className="absolute inset-0 bg-black opacity-50 z-0 h-[180vh] lg:h-[100vh]"></div>
 
-      <div className="absolute inset-0">
-        <div className="navbar-container">
+      <div className="absolute inset-0 -center">
+        <div className="">
           <Navbar />
         </div>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row ml-10">
           {/* SideCard */}
           {showSideCard && <SideCard />}
 
           {/* Main Content */}
-          <div className="lg:ml-10 flex-grow">
+          <div className="lg:ml-10 lg:mt-20 flex-grow">
             <div className="container mx-auto px-4 py-16 z-10">
               <div className="text-white">
                 <h1 className="text-5xl font-bold mb-4">

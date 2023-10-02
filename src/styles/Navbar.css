@@ -1,4 +1,7 @@
 nav {
+display: flex;
+justify-content: flex-end;
+margin: 3rem;
 }
 
 nav ul {
