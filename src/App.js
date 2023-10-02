@@ -12,7 +12,6 @@ function App() {
   return (
    <>
     <Router>
-    <Background />
 
     <Routes>
       <Route path="/" element={<HomePage />} />
