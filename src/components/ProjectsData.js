@@ -1,15 +1,14 @@
-import Resort from "../assets/new-res.mp4";
-import Fortune from "../assets/fortune.mp4";
+import Prodigies from "../assets/prodigies.mp4";
+import Bigtime from "../assets/bigtime.mp4";
 import MathMagician from "../assets/final-math.mp4";
 import Summit from "../assets/youth-summit.mp4";
 
 const ProjectsData = [
     {
-        imgsrc: Resort,
-        title: "Resort Booking",
-        text: "Resort Booking is a web application that offers a diverse selection of luxurious accommodations and amenities. Find your slice of paradise, effortlessly plan your trip, and make memories that last a lifetime with ResortHub.",
-        live: "https://resort-app-frontend.onrender.com",
-        source: "https://github.com/Leeoasis/resort-booking-frontend-app"
+        imgsrc: Prodigies,
+        title: "Laptop Prodigies",
+        text: "TechTreasure Hunt: Discover Your Perfect Laptop Oasis. Seamlessly Navigate Choices, Craft Your Tech Haven, and Forge a Digital Legacy with Laptop prodigies",
+        live: "https://www.laptopprodigies.co.za",
     },
     {
         imgsrc: MathMagician,
@@ -26,11 +25,10 @@ const ProjectsData = [
         source: "https://github.com/Leeoasis/Youth-summit"
     },
     {
-        imgsrc: Fortune,
-        title: "Fortune 500 companies",
-        text: "Fortune-100-Companies This is a mobile web application that renders on its homepage the...",
-        live: "https://fortune500.onrender.com/",
-        source: "https://github.com/Leeoasis/fortune100-companies/tree/dev"
+        imgsrc: Bigtime,
+        title: "Bigtime Deals",
+        text: "TechTreasure Hunt: Discover Your Perfect Laptop Oasis. Seamlessly Navigate Choices, Craft Your Tech Haven, and Forge a Digital Legacy with Bigtime Deals.",
+        live: "https://bigtimedeals.co.za/store",
     }
 ]
 
