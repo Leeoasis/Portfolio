@@ -1,26 +1,26 @@
 .projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    margin-top: -42%;
-    margin-left: 15rem;
-    opacity: 0.9;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: -42%;
+  margin-left: 15rem;
+  opacity: 0.9;
+  color: white;
 }
 
 .carousel-container {
-    position: relative;
-    overflow: hidden;
-    margin-left: 15rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
+  position: relative;
+  overflow: hidden;
+  margin-left: 15rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 .project-intro {
   font-size: 1.5rem;
-    color:  #28E98C;
-    opacity: 0.99;
+  color: #28e98c;
+  opacity: 0.99;
 }
 
 .project-card video {
@@ -28,90 +28,89 @@
 }
 
 .projects-title {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #999999;
-
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #999999;
 }
 
 .project-title {
-    font-size: 1.5rem;
-    color: #28E98C;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
+  font-size: 1.5rem;
+  color: #28e98c;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .project-description {
-    font-size: 1rem;
-    color: #ffffff;
+  font-size: 1rem;
+  color: #ffffff;
 
-    font-weight: 400;
-    margin: auto auto;
+  font-weight: 400;
+  margin: auto auto;
 }
 
 .project-btns {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
 }
 
 .live-btn {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    border-radius: 30px;
-    background: #28E98C;
-    color: #000000;
-    text-decoration: none;
-    transition: .3s;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border-radius: 30px;
+  background: #28e98c;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .source-btn {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
-    border-radius: 30px;
-    background: #28E98C;
-    color: #000000;
-    text-decoration: none;
-    transition: .3s;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  border-radius: 30px;
+  background: #28e98c;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .projects-btn:hover {
   background: none;
-  color: #28E98C;
+  color: #28e98c;
   text-decoration: none;
-  border: 2px solid #28E98C;
+  border: 2px solid #28e98c;
 }
 
 @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  0% {
+    transform: translateX(-100%);
   }
-  
-  .slide-in {
-    animation: slideInFromLeft 0.5s ease;
+  100% {
+    transform: translateX(0);
   }
+}
 
-  .project-card {
-    position: relative;
-    transition: transform 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05); 
-  }
+.slide-in {
+  animation: slideInFromLeft 0.5s ease;
+}
+
+.project-card {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
 
 @media screen and (max-width: 1200px) {
   .projects-container {
     margin-top: -165rem;
-    gap : 3rem;
+    gap: 3rem;
   }
 
   .project-card video {
@@ -136,8 +135,8 @@
   }
 
   .carousel-container {
-    margin-left: 0rem;
-    margin-right: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .project-intro {
