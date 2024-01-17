@@ -31,7 +31,7 @@
   position: absolute;
   top: 4rem;
   right: 3rem;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .sidecard-container {
@@ -44,7 +44,7 @@
 /* Media query for tablet screens */
 @media (max-width: 1200px) {
   .background-container {
-    height: 300vh;
+    height: 370vh;
   }
 
   .nav-btn {
@@ -54,19 +54,19 @@
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
-.navbar-container {
-  left: 18.5rem;
-}
+  .navbar-container {
+    left: 18.5rem;
+  }
 
-.nav-btn {
-  display: block;
-}
+  .nav-btn {
+    display: block;
+  }
 
-.sidecard-container {
-  left: 1.2rem;
-  right: inherit;
-  top: 1rem;
-  margin: auto auto;
-  z-index: 0;
-}
+  .sidecard-container {
+    left: 1.2rem;
+    right: inherit;
+    top: 1rem;
+    margin: auto auto;
+    z-index: 0;
+  }
 }
